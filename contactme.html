@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Levi's nearly awesome website</title>
+        <link href="contactmestyles.css" rel="stylesheet">
+    </head>
+    <nav>
+        <!-- Wow, it's the nav! -->
+        <a href="./index.html" class="navbar">Home</a>
+        <a href="./aboutme.html" class="navbar">About me</a>
+        <a href="./employment.html" class="navbar">Employment</a>
+        <a href="./gallery.html" class="navbar">Photo gallery</a>
+        <a href="./contactme.html" class="navbar">Contact me</a>
+    </nav>
+    <section id="bgcontainer">
+      <!-- This is for the rotating background! -->
+      <!-- Please don't break roatating background, I beg you! -->
+      <link href="bgstyles.css" rel="stylesheet">
+      <div class="pop" id="largepop"></div>
+      <div class="bg" id="largebg"></div>
+      <div class="pop" id="mediumpop"></div>
+      <div class="bg" id="mediumbg"></div>
+      <div class="pop" id="smallpop"></div>
+      <div class="bg" id="smallbg"></div>
+      <script src="bg.js"></script>
+    </section>
+    <header>
+        <p class="myemail">You can contact me by&nbsp</p><a class="myemail" href="mailto:vandyk.levi@gmail.com">my email</a><p class="myemail">&nbspor via the form below.</p>
+    </header>
+    <section id="formcontainer">
+        <form>
+            <label for="email"><br>Enter your email address here<br></label>
+            <input type="email" id="email" required placeholder="example@email.com" name="youremail"/>
+            <label for="name"><br>Enter your name here<br></label>
+            <input required placeholder="Simon Bolivar" id="name" name="name"/>
+            <label for="reason"><br>Reason for contact<br></label>
+            <input required placeholder="Need help" id="reason" name="reason"/>
+            <label for="message"><br>Message<br></label>
+            <textarea required placeholder="example@email.com" id="message" name="message" rows="5" cols="40"></textarea>
+            <br>
+            <input id="submit" type="submit" value="Currently non-operational, sorry!" disabled/>
+            <!-- Speeling is hard. -->
+        </form>
+    </section>
+</html>

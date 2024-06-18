@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Levi's nearly awesome website</title>
+        <link href="aboutmestyles.css" rel="stylesheet">
+    </head>
+    <nav>
+        <!-- Wow, it's the nav! -->
+        <a href="./index.html" class="navbar">Home</a>
+        <a href="./aboutme.html" class="navbar">About me</a>
+        <a href="./employment.html" class="navbar">Employment</a>
+        <a href="./gallery.html" class="navbar">Photo gallery</a>
+        <a href="./contactme.html" class="navbar">Contact me</a>
+    </nav>
+    <section id="bgcontainer">
+      <!-- This is for the rotating background! -->
+      <!-- Please don't break roatating background, I beg you! -->
+      <link href="bgstyles.css" rel="stylesheet">
+      <div class="pop" id="largepop"></div>
+      <div class="bg" id="largebg"></div>
+      <div class="pop" id="mediumpop"></div>
+      <div class="bg" id="mediumbg"></div>
+      <div class="pop" id="smallpop"></div>
+      <div class="bg" id="smallbg"></div>
+      <script src="bg.js"></script>
+    </section>
+    <header>
+        <!-- THIS IMAGE IS A PLACEHOLDER -->
+        <img src="./me1.jpg" alt="A normal image of me.">
+        <img src="./me2.jpg" id="abnormal" alt="A less normal image of me.">
+        <!-- ADD AN ARROW WHEN YOU GET A GOOD IMAGE -->
+        <br>
+        <p id="me1" class="inline">This is me!</p>
+        <p class="right inline" id="me2">This is.... also me.</p>
+    </header>
+    <section id="main">
+        <p>As I already mentioned, my name is Levi VanDyk, and I currently live in Cambridge, Ontario.</p>
+        <p class="family inline">I live with my family of 9. 5 brothers, my sister, and my mother and father.&nbsp;</p><div class="family inline" id="button"><p id="button-text" class="family inline">Show Photo</p></div>
+        <img id="family-image" src="./family.jpg" alt="An image of my family">
+        <script src="photoreveal.js"></script>
+        <p>I am currently enroled in the <span id="VLC" title="Virtual Learning Center">VLC</span> and working through my Grade 12 courses</p>
+        <p>I have a casual interest in history and coding, and I like volenteering for initatives I believe in.</p>
+        <p>My favourite thing to do in my spare time is to play mods of video games.</p>
+        <p class="colourblind inline">I'm also colourblind, so ya, don't ask me what colour this is.</p>
+        <div id="orange" class="inline"></div>
+        <p class="colourblind inline" id="postorange">It's orange, right?</p>
+    </section>
+</html>

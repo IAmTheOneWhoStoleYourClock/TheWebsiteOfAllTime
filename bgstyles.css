@@ -1,0 +1,114 @@
+body {
+  background-color: #C3C6AC;
+  margin: 0;
+}
+
+#bgcontainer {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: clip;
+  z-index: -10000000;
+}
+
+.pop {
+  background-color: #AFACC6;
+  position: fixed;
+}
+
+.bg {
+  background-color: #C3C6AC;
+  position: fixed;
+}
+
+@media (min-aspect-ratio: 1/1) {
+  #largepop {
+    min-width: 90vh;
+    min-height: 90vh;
+  }
+  #largebg {
+    min-width: 80vh;
+    min-height: 80vh;
+  }
+  #mediumpop {
+    min-width: 60vh;
+    min-height: 60vh;
+  }
+  #mediumbg {
+    min-width: 50vh;
+    min-height: 50vh;
+  }
+  #smallpop {
+    min-width: 30vh;
+    min-height: 30vh;
+  }
+  #smallbg {
+    min-width: 20vh;
+    min-height: 20vh;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) {
+  #largepop {
+    min-width: 90vw;
+    min-height: 90vw;
+  }
+  #largebg {
+    min-width: 80vw;
+    min-height: 80vw;
+  }
+  #mediumpop {
+    min-width: 60vw;
+    min-height: 60vw;
+  }
+  #mediumbg {
+    min-width: 50vw;
+    min-height: 50vw;
+  }
+  #smallpop {
+    min-width: 30vw;
+    min-height: 30vw;
+  }
+  #smallbg {
+    min-width: 20vw;
+    min-height: 20vw;
+  }
+}
+
+#largepop {
+  top: 5vh;
+  left: 5vw;
+  z-index: -16;
+}
+
+#largebg {
+  top: 10vh;
+  left: 10vw;
+  z-index: -15;
+}
+
+#mediumpop {
+  top: 20vh;
+  left: 20vw;
+  z-index: -14;
+}
+
+#mediumbg {
+  top: 25vh;
+  left: 25vw;
+  z-index: -13;
+}
+
+#smallpop {
+  top: 35vh;
+  left: 35vw;
+  z-index: -12;
+}
+
+#smallbg {
+  top: 40vh;
+  left: 40vw;
+  z-index: -11;
+}
